@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Blog and Coding Repository</title>
-    <img src="imag/perfil.jpg" rel="stylesheet">
     <style>
         html, body {
             margin: 0;
@@ -40,6 +39,9 @@
         .img-circle {
             border: 3px solid white;
             border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
         }
 
         .section {
@@ -53,19 +55,18 @@
             background-image: url("https://www.sololearn.com/Uploads/header.jpg");
             background-size: cover;
             text-align: center;
+            padding: 20px 0; /* Adiciona espaço no topo para a imagem */
         }
 
         #header img {
-            width: 80px;
-            height: 80px;
-            margin: auto;
             display: block;
+            margin: 0 auto;
         }
 
         #header p {
             font-size: 25pt;
             color: #3b464c;
-            padding-top: 5px;
+            padding-top: 10px;
             margin: 0;
             font-weight: bold;
         }
@@ -183,7 +184,7 @@
 <body>
     <!-- Header start -->
     <div id="header" class="section">
-        <imag alt="Profile Picture" class="imag-circle" src="<imag src="imag/perfil.jpg"">
+        <imag src="perfil.jpg" alt="Profile Picture" class="img-circle">
         <p>Gabriel Crivellari</p>
     </div>
     <!-- Header end -->
@@ -312,7 +313,3 @@
     </div>
 </body>
 </html>
-
-
-
-
